@@ -4,11 +4,11 @@ import CharacterCounter from '../../app/assets/javascripts/components/features/c
 storiesOf('CharacterCounter', module)
   .add('no text', () => {
     const text = '';
-    return <CharacterCounter text={text} max="500" />;
+    return <CharacterCounter text={text} max="666" />;
   })
   .add('a few strings text', () => {
     const text = '0123456789';
-    return <CharacterCounter text={text} max="500" />;
+    return <CharacterCounter text={text} max="666" />;
   })
   .add('the same text', () => {
     const text = '01234567890123456789';
